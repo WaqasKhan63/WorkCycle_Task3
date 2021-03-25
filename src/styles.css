@@ -2,3 +2,27 @@
   font-family: sans-serif;
   text-align: center;
 }
+.navbar {
+  background-color: black;
+}
+.brandName {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.left {
+  float: left;
+  width: 50%;
+}
+.left img {
+  width: 60%;
+  height: 90px;
+  margin-top: 15px;
+}
+.left::after {
+  clear: left;
+}
+.center {
+  text-align: left;
+}
